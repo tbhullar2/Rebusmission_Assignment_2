@@ -26,6 +26,17 @@ print("next:", next_year, "type", type(next_year))
 
 #CALCULATIONS
 
+GOODS_AND_SERVICE_TAX_RATE = 0.05
+PROVINCIAL_SALES_TAX = 0.07
+price_of_a_vehicle = 99997
+
+GST = price_of_a_vehicle * GOODS_AND_SERVICE_TAX_RATE
+PST = price_of_a_vehicle * PROVINCIAL_SALES_TAX
+final_cost_of_vehicle  = price_of_a_vehicle + GST + PST
+
+print("pre-tax value:", price_of_a_vehicle, "PST:", PST, "GST:", GST, "total:", final_cost_of_vehicle)
+print(f"pre-tax value: ${price_of_a_vehicle: .2f} PST:{PST: .2f} GST:{GST: .2f} total: ${final_cost_of_vehicle: .2f}")
+
 #LISTS
 
 #TUPLES
