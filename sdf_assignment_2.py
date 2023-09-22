@@ -80,4 +80,17 @@ canadaian_coin["toonie"] = 200
 print(canadaian_coin)
 
 #SETS
+even_numbers = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print("Even number:",even_numbers)
+print("datatype:", type(even_numbers))
 
+Multiples_of_5 = {5,10,15,20}
+print("Multiples of 5:", Multiples_of_5)
+
+print("difference:",even_numbers.difference(Multiples_of_5))
+
+print("intersection:", even_numbers.intersection(Multiples_of_5))
+
+print(even_numbers.difference(Multiples_of_5))
+
+print(Multiples_of_5.difference(even_numbers))
