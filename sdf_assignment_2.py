@@ -38,10 +38,46 @@ print("pre-tax value:", price_of_a_vehicle, "PST:", PST, "GST:", GST, "total:", 
 print(f"pre-tax value: ${price_of_a_vehicle: .2f} PST:{PST: .2f} GST:{GST: .2f} total: ${final_cost_of_vehicle: .2f}")
 
 #LISTS
+integers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("datatype:", type(integers))
+print("integers:", integers)
+
+# add first name between 5 and 6
+integers.insert(5,"Tanvir")
+print("integers:",integers)
+
+# remove 9
+integers.remove(9)
+print(integers)
+
+second_integers = ["A" , "B" , "C"]
+
+#  combine first and second integers
+third_integers = [integers, second_integers]
+
+print("third integers:", third_integers)
 
 #TUPLES
+canada_provinces = ("Manitoba","Ontario","Alberta","British Columbia")
+print(canada_provinces)
+print("datatype:", type(canada_provinces))
 
 #DICTIONARIES
+canadaian_coin = {"nickel": "0.07", "dime": "0.17", "quarter": "0.27"}
+print("CAD currency amounts:", canadaian_coin)
+
+print("datatype :", type(canadaian_coin))
+
+canadaian_coin["nickel"] = 7
+canadaian_coin["dime"] = 17
+canadaian_coin["quarter"] = 27
+print(canadaian_coin)
+
+# Adding new items
+canadaian_coin["loonie"] = 100
+canadaian_coin["toonie"] = 200
+print(canadaian_coin)
 
 #SETS
 
